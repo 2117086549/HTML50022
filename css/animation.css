@@ -1,0 +1,367 @@
+
+
+/*首页动画*/
+@-webkit-keyframes thankShow
+{
+	100%
+	{
+		opacity: 1 ;
+		-webkit-transform:translateY(0px);
+	}
+}
+
+@-webkit-keyframes thankHide
+{	
+
+	0%{
+		opacity: 1 ;
+		-webkit-transform:translateY(0px);
+	}
+	100%
+	{
+		opacity: 0 ;
+		-webkit-transform:translateY(100px);
+	}
+}
+
+@keyframes thankHide
+{	
+
+	0%{
+		opacity: 1 ;
+		-webkit-transform:translateY(0px);
+	}
+	100%
+	{
+		opacity: 0 ;
+		-webkit-transform:translateY(100px);
+	}
+}
+
+@keyframes thankShow
+{
+	100%
+	{
+		opacity: 1 ;
+		-webkit-transform:translateY(0px);
+	}
+}
+@-webkit-keyframes rocketShow
+{
+	100%
+	{
+		opacity: 1 ;
+		-webkit-transform:translateX(0px) translateY(0px);
+	}
+}
+
+@-webkit-keyframes rocketHide
+{	
+
+	0%{
+		opacity: 1 ;
+	}
+	100%
+	{
+		opacity: 0 ;
+		-webkit-transform:translateX(120px) translateY(-120px);
+	}
+}
+
+@keyframes rocketHide
+{	
+
+	0%{
+		opacity: 1 ;
+	}
+	100%
+	{
+		opacity: 0 ;
+		-webkit-transform:translateX(250px) translateY(-120px);
+	}
+}
+
+@keyframes rocketShow
+{
+	100%
+	{
+		opacity: 1 ;
+		-webkit-transform:translateX(0px) translateY(0px);
+	}
+}
+
+
+@-webkit-keyframes titleShow
+{
+	100%
+	{
+		opacity: 1;
+		-webkit-transform:translateX(0px);
+	}
+}
+
+@keyframes titleShow
+{
+	100%
+	{
+		opacity: 1;
+		-webkit-transform:translateX(0px);
+	}
+}
+
+@-webkit-keyframes music
+{	
+	0%
+	{
+		-webkit-transform:rotate(0deg);
+	}
+	100%
+	{
+		-webkit-transform:rotate(360deg);
+	}
+}
+
+@keyframes music
+{	
+	0%
+	{
+		-webkit-transform:rotate(0deg);
+	}
+	100%
+	{
+		-webkit-transform:rotate(360deg);
+	}
+}
+
+@-webkit-keyframes arrow
+{	
+	0%
+	{	opacity: 0;
+		-webkit-transform:translateY(0px);
+	}
+	100%
+	{	
+		opacity: 1;
+		-webkit-transform:translateY(-30px);
+	}
+}
+
+@keyframes arrow
+{	
+	0%
+	{	opacity: 0;
+		-webkit-transform:translateY(0px);
+	}
+	100%
+	{	
+		opacity: 1;
+		-webkit-transform:translateY(-30px);
+	}
+}
+
+@-webkit-keyframes circleHide
+{
+	100%
+	{	
+		-webkit-transform:translateY(200px);
+	}
+}
+
+
+/***********************************************/
+
+/*page1*/
+@-webkit-keyframes manIn
+{	
+	0%
+	{
+		-webkit-transform:scale(0);
+	}
+	100%
+	{	
+	
+		-webkit-transform:scale(1);
+	}
+}
+
+@-webkit-keyframes manOut
+{	
+	0%
+	{
+		-webkit-transform:scale(1);
+	}
+	100%
+	{	
+	
+		-webkit-transform:scale(1.5);
+	}
+}
+
+@keyframes manIn
+{	
+	0%
+	{
+		-webkit-transform:scale(0);
+	}
+	100%
+	{	
+	
+		-webkit-transform:scale(1);
+	}
+}
+
+@keyframes manOut
+{	
+	0%
+	{	
+		opacity: 1;
+		-webkit-transform:scale(1);
+	}
+	100%
+	{	
+		opacity: 0;
+		-webkit-transform:scale(1.8);
+	}
+}
+
+@-webkit-keyframes floorIn
+{	
+	0%
+	{
+		-webkit-transform:translateY(218px);
+	}
+	100%
+	{	
+	
+		-webkit-transform:translateY(0);
+	}
+}
+
+@-webkit-keyframes floorOut
+{	
+
+	100%
+	{	
+		opacity: 0;
+		-webkit-transform:translateY(50px);
+	}
+}
+
+@keyframes floorIn
+{	
+	0%
+	{
+		-webkit-transform:translateY(218px);
+	}
+	100%
+	{	
+	
+		-webkit-transform:translateY(0);
+	}
+}
+
+@-webkit-keyframes rocketIn
+{	
+
+	100%
+	{	
+		opacity: 1 ;
+		-webkit-transform:translateY(0);
+	}
+}
+
+@keyframes rocketIn
+{	
+
+	100%
+	{	
+		opacity: 1 ;
+		-webkit-transform:translateY(0);
+	}
+}
+
+@-webkit-keyframes wordIn
+{	
+
+	100%
+	{	
+		-webkit-transform:scale(1);
+	}
+}
+
+@keyframes wordIn
+{	
+
+	100%
+	{	
+		-webkit-transform:scale(1);
+	}
+}
+
+@-webkit-keyframes wordtitleIn
+{	
+
+	100%
+	{	
+		opacity: 1;
+	}
+}
+
+@keyframes wordtitleIn
+{	
+
+	100%
+	{	
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes earthIn
+{	
+
+	100%
+	{	
+		opacity: 1;
+	}
+}
+
+@keyframes earthIn
+{	
+
+	100%
+	{	
+		opacity: 1;
+	}
+}
+/*******************************/
+/*page2*/
+
+@-webkit-keyframes people
+{	
+
+	100%
+	{	
+		opacity: 1;
+		-webkit-transform:rotate(0);
+	}
+}
+
+@-webkit-keyframes rocketUp
+{	
+
+	100%
+	{	
+		opacity: 0 ;
+		-webkit-transform:translateY(-300px);
+	}
+}
+
+@-webkit-keyframes hide
+{	
+
+	100%
+	{	
+		opacity: 0 ;
+	}
+}
+
